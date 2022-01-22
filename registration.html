@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+        <li><a href="./index.html">Home</a></li>
+        <div class="dropdown"> 
+            <button class="btn">Login</button>
+        <div class="dropdowncontent">
+            <li><a href="./registration.html">Register</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </div>
+        </div>
+<div class="dropdown">
+    <button class="btn">Projects</button>
+<div class="dropdowncontent">
+    <a href="./mfb.html">Favourtite Books</a>
+    <a href="./books.html">Recommended books</a>
+    <a href="./s.html">Sports</a>
+    <a href="./tm.html">Taj Mahal</a>
+    <a href="./sp.html">Space</a>
+</div>
+</div>
+    <li><a href="./feedback.html">Feed Back</a></li>
+    <li><a href="./ty.html">Thank You</a></li>
+</ul>
+</nav>
+</header>
+    <h1>Registration page</h1>
+    <br><br>
+    <form>
+        <label for="username">
+            Username * :
+            <input type="text" id="username" name="username">
+        </label>
+        <br><br>
+        <label for="password">
+            Password * : 
+            <input type="password" id="password" name="password">
+        </label>
+        <br><br>
+        <label for="confirmpassword"></label>
+            Confirm your passwrod * :
+            <input type="password" id="confirmpassword" name="confirmpassword">
+        <br><br>
+        <label for="email"></label>
+            E - mail * :
+            <input type="email" id="email" name="email">
+        <br><br>
+        <label for="phone_number"></label>
+            Phone number :
+            <input type="number" id="phone_number" name="phone_number">
+            <br>
+        <!-- <label for="gender"></label>
+            Gender :
+            <input type="text" id="gender" name="gender"> -->
+            <label for="gender">
+                <p>Gender :</p>
+            <select name="gender" id="gender">
+                <option value="op0" selected>---</option>
+                <option value="op1">Male</option>
+                <option value="op2">Female</option>
+                <option value="op3">Classified</option>
+            </select>
+            <br><br>
+            </label>
+                <p>Mode of communication :</p>
+        <label for="email">Email
+            <input type="checkbox" id="mode" name="email" checked>
+        </label>
+        <br>
+        <label for="watsapp">Watsapp
+            <input type="checkbox" id="mode" name="watsapp">
+        </label>
+        <br>
+        <label for="call">Call
+            <input type="checkbox" id="mode" name="call">
+        </label>
+        <br><br>
+            <button type="submit"><a href="./registrated_succesfully.html"> - REGISTER HERE - </a></button>
+            <!-- <br><br> -->
+            <button type="reset"><a>RESET</a></button>
+            <br><br>
+      
+            <h3>Already registerd ? <a href="./login.html" class="login"> Login ! </a></h3>
+            
+    </form>
+</body>
+</html>

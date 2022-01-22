@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: xx-large;
+    margin: 75px;
+    border: yellow;
+    border-style:groove;
+    border-radius: 14px;
+    border-width: 17px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+iframe{
+    border: groove;
+    border-color: blue;
+    border-width: 10px;
+}
+nav{
+    background-color: limegreen;
+    color: yellow;
+    font-family: cursive;
+}
+nav > ul{
+    color: yellow;
+    list-style-type: none;
+    border: 3px solid yellow;
+}
+nav > ul > li{
+    display: inline;
+    padding: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: blue;
+    font-size: 38px;
+}
+nav > ul > li > a:hover{
+    color: yellow;
+}
+.dropdown{
+position: relative;
+display: inline-block;
+}
+.btn{
+    background-color: limegreen;
+    font-family: cursive;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    font-size: 40px;
+    border: none;
+}
+.btn:hover{
+    color: yellow;
+}
+.dropdowncontent{
+display: none;
+background: cyan;
+position: absolute;
+z-index: 1;
+min-width: 160px;
+border: 2px solid yellow;
+font-size: 40px;
+}
+.dropdowncontent a:hover{
+    background-color: lightgoldenrodyellow;
+    color: darkgoldenrod;
+}
+.dropdowncontent a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+    padding: 10px;
+}
+.dropdown:hover .dropdowncontent{display: block;}
+
+input{
+    background-color: rgb(97, 230, 20);
+}
+textarea{
+    background-color: rgb(174, 228, 28);
+}
+button{
+    background-color: limegreen;
+    font-family: cursive;
+    padding: 7px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    border: groove blue;
+    border-radius: 10px;
+}
+a:hover{
+    color: yellow;
+    padding: 8px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    background-color: limegreen;
+    font-family: cursive;
+    padding: 7px;
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+    /* border: groove blue;
+    border-radius: 10px; */
+}
+select{
+    text-align: center;
+    text-decoration: none;
+    background-color: limegreen;
+    font-family: cursive;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.login{
+    background-color: aqua;
+    color: black;
+}
+.login:hover{
+    color: black;
+    font-size: 33px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+.grid-item{
+    border: 2px solid blue;
+    padding: 15px;
+}
